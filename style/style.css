@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #5CE1E6;
+}
+.square1 {
+    margin: 0px 29px 0px 25px;
+    display: flex;
+    height: 50vh;    
+}
+.square1 :nth-child(n + 2){
+    flex-basis: 44%;
+}
+.square2 :nth-child(n + 2){
+    flex-basis: 44%;
+    position: relative;
+
+}
+.square2 {
+    margin: 0px 29px 0px 25px;
+    display: flex;
+    height: 50vh;
+}
+.line{
+    background-color: white;
+    width: 89px;
+}
+img{
+    width: 340px;
+    max-width: 100%;
+}
+.square1 :nth-child(3){
+    font-size: 29px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 215px;
+    font-weight: 900;
+}
+
+.square1 :nth-child(3)::after{
+    content: "MUSICA CLUB";
+    position: absolute;
+    color: white;
+    top: 1025px;
+    right: 7%;
+    z-index: 1;
+}
